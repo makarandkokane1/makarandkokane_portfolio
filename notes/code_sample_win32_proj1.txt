@@ -1,0 +1,4 @@
+- trials/sample_win_proj1
+- Win32 Application.
+- Maximized window on startup.
+- Parameters to CreateWindow() and ShowWindow() are changed from the default boilerplate code.

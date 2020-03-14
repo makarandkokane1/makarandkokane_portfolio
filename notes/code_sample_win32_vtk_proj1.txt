@@ -1,0 +1,4 @@
+- trials/samplewin32_vtk_proj1
+- Win32 Application.
+- VTK rendering in Win32 application.
+- CMAKE used for build.

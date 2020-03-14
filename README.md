@@ -1,2 +1,2 @@
 # makarandkokane_portfolio
- Some code written by me, to demonstrate my skills.
+ Some weekend code written by me, to demonstrate my skills.
