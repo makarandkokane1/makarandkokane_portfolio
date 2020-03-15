@@ -1,7 +1,7 @@
 
 /*-------------------------------------------------------------------------------------------------
 
-14-mar-2020: Wrote an API to get project root path.
+APIs for environment variables required to run applications in this repository.
 
 -------------------------------------------------------------------------------------------------*/
 

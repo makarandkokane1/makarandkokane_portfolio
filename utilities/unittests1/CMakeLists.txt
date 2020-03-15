@@ -12,4 +12,4 @@ LINK_LIBRARIES(
   ${VTK_LIBRARIES}
 )
 
-ADD_EXECUTABLE(unittests1 unittests1.cxx ../mkEnvironmentVariables.cxx)
+ADD_EXECUTABLE(unittests1 unittests1.cxx ../mkEnvironmentVariables.cxx ../mkMemoryRawArrays.cxx)
