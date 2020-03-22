@@ -11,12 +11,17 @@ APIs for visualizing output of vtkAlgorithm.
 //-------------------------------------------------------------------------------------------------
 
 #include "vtkAlgorithmOutput.h"
+#include "vtkImageData.h"
 
 //-------------------------------------------------------------------------------------------------
 
 namespace mkUtilities
 {
     void mkVisualizeAlgorithmOutput (vtkAlgorithmOutput* in);
+
+    // TODO: Move to a different file, when more usages evolve.
+    void mkVisualizeVtkImageData (vtkImageData* vtkData);
+
 };
 
 //-------------------------------------------------------------------------------------------------
