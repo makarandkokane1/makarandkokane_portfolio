@@ -31,6 +31,19 @@ bool mkUtilities::getProjectRootPath (
 
 //-------------------------------------------------------------------------------------------------
 
+bool mkUtilities::getSrc1RootPath(
+    const char*& out_varName,
+    const char*& out_value)
+{
+    out_varName = "MK_SRC1_ROOT";
+
+    out_value = mkUtilities::getenv(out_varName);
+
+    return (out_value != nullptr);
+}
+
+//-------------------------------------------------------------------------------------------------
+
 void mkUtilities::unittest_envVars ()
 {
     const char* varName = nullptr;

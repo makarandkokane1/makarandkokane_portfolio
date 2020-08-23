@@ -16,6 +16,10 @@ namespace mkUtilities
         const char*& out_varName,
         const char*& out_value);
 
+    bool getSrc1RootPath(
+        const char*& out_varName,
+        const char*& out_value);
+
     const char* getenv (const char* in_envVarName);
 
     void unittest_envVars ();

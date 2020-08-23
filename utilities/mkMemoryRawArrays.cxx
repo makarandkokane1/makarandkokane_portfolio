@@ -105,7 +105,7 @@ void mkUtilities::array<ElementType>::create (
 {
     try
     {
-        m_rawPtr = new ElementType[in_initialSize]() {in_initialValue};
+        m_rawPtr = new ElementType[in_initialSize] {in_initialValue};
 
         m_size = in_initialSize;
 
